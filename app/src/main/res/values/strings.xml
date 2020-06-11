@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Baye Barham Sokhna</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="apropos">A Propos</string>
+    <string name="quitter">Quitter</string>
+    <string name="view">Document PDF</string>
+    <string name="arabe">Arabe</string>
+    <string name="francais">Français</string>
+    // Menu item
+    <string name="theme0">Alhamdou lilah</string>
+    <string name="theme1">Kawnou khalbi</string>
+    <string name="theme2">Abismane</string>
+    <string name="theme3">Warisa Cheickh Tidiane</string>
+    <string name="theme4">Mahamadou rasoulilahi</string>
+    <string name="theme5">Alall khamari</string>
+    <string name="theme6">Khoutbatoul anikaha</string>
+    // Developpeur
+    <string name="contact0">Copyright Cod Art 2020</string>
+    <string name="contact1">Tel : +221 77 883 04 51</string>
+    <string name="contact2">Mail : diallodiery301@gmail.com</string>
+    // Auteur
+    <string name="auteur0">Cheikh Malick Mbaye</string>
+    <string name="auteur1">Tel : +221 77 265 22 21</string>
+</resources>

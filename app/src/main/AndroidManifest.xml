@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sn.dev.bayebarhamsokhna">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/sokhna3"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".pdf.PdfViewActivity"
+            android:parentActivityName=".MenuAppActivity"
+            android:label="@string/view"/>
+        <activity
+            android:name=".help.AProposActivity"
+            android:parentActivityName=".MenuAppActivity"
+            android:label="@string/apropos"/>
+        <activity
+            android:name=".theme.Theme6Activity"
+            android:parentActivityName=".MenuAppActivity"
+            android:label="@string/theme6"/>
+        <activity
+            android:name=".theme.Theme5Activity"
+            android:parentActivityName=".MenuAppActivity"
+            android:label="@string/theme5"/>
+        <activity
+            android:name=".theme.Theme4Activity"
+            android:parentActivityName=".MenuAppActivity"
+            android:label="@string/theme4"/>
+        <activity
+            android:name=".theme.Theme3Activity"
+            android:parentActivityName=".MenuAppActivity"
+            android:label="@string/theme3"/>
+        <activity
+            android:name=".theme.Theme2Activity"
+            android:parentActivityName=".MenuAppActivity"
+            android:label="@string/theme2"/>
+        <activity
+            android:name=".theme.Theme1Activity"
+            android:parentActivityName=".MenuAppActivity"
+            android:label="@string/theme1"/>
+        <activity
+            android:name=".theme.Theme0Activity"
+            android:parentActivityName=".MenuAppActivity"
+            android:label="@string/theme0"/>
+        <activity android:name=".MenuAppActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

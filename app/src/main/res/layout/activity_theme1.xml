@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/dark_blue"
+    tools:context=".theme.Theme1Activity">
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp"
+            android:clickable="false"
+            app:cardBackgroundColor="@color/light_goldenrod_yellow">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/article1"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:scaleType="centerCrop"
+                    android:layout_gravity="center"
+                    android:src="@drawable/kawnou_khalbi"/>
+                <LinearLayout
+                    android:layout_below="@+id/article1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/btnarticle1Arabe"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12dp"
+                        android:fontFamily="serif-monospace"
+                        android:text="@string/arabe" />
+                    <Button
+                        android:id="@+id/btnarticle1Francais"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12dp"
+                        android:fontFamily="serif-monospace"
+                        android:text="@string/francais" />
+                </LinearLayout>
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+
+</LinearLayout>

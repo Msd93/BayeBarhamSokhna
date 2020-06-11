@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/theme1" android:title="@string/theme0" android:icon="@drawable/ic_book_black_24dp"></item>
+    <item android:id="@+id/theme2" android:title="@string/theme1" android:icon="@drawable/ic_book_black_24dp"></item>
+    <item android:id="@+id/theme3" android:title="@string/theme2" android:icon="@drawable/ic_book_black_24dp"></item>
+    <item android:id="@+id/theme4" android:title="@string/theme3" android:icon="@drawable/ic_book_black_24dp"></item>
+    <item android:id="@+id/theme5" android:title="@string/theme4" android:icon="@drawable/ic_book_black_24dp"></item>
+    <item android:id="@+id/theme6" android:title="@string/theme5" android:icon="@drawable/ic_book_black_24dp"></item>
+    <item android:id="@+id/theme7" android:title="@string/theme6" android:icon="@drawable/ic_book_black_24dp"></item>
+    <item android:title="@string/apropos" android:icon="@drawable/ic_help_black_24dp"></item>
+    <item android:title="@string/quitter" android:icon="@drawable/ic_exit_to_app_black_24dp"></item>
+</menu>
